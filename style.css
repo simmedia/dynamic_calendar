@@ -1,44 +1,44 @@
 section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #calendar {
-    border: 4px solid darkblue;
-    border-collapse: collapse;
+  border: 4px solid darkblue;
+  border-collapse: collapse;
 }
 
 #calendar thead tr th {
-    font-size: 10pt;
-    background-color: #57A;
-    color: #ffffff;
+  font-size: 10pt;
+  background-color: #57a;
+  color: #ffffff;
 }
 
 #calendar tbody tr td {
-    border: 1px dashed #57A;
-    padding: 5px;
-    width: 30px;
-    height: 30px;
-    font-size: 9pt;
-    text-align: right;
-    vertical-align: top;
+  border: 1px dashed #57a;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  font-size: 9pt;
+  text-align: right;
+  vertical-align: top;
 }
 
 #calendar tbody tr:nth-child(odd) td {
-    background-color: #FDFDFD;
+  background-color: #fdfdfd;
 }
 
 #calendar tbody tr td:last-child {
-    background-color: #FA9;
+  background-color: #fa9;
 }
 
 #calendar tbody tr td:nth-child(6) {
-    background-color: #EEE;
+  background-color: #eee;
 }
 
 .current-day {
-    background-color: #dc0000;
-    color: #ffffff;
+  background-color: #dc0000;
+  color: #ffffff;
 }
