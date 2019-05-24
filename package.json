@@ -1,0 +1,19 @@
+{
+  "name": "dynamic_calendar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simmedia/dynamic_calendar.git"
+  },
+  "author": "Stefan Simic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simmedia/dynamic_calendar/issues"
+  },
+  "homepage": "https://github.com/simmedia/dynamic_calendar#readme"
+}
