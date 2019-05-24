@@ -3,7 +3,13 @@ const btn = document.getElementById("getCBtn");
 btn.addEventListener("click", function() {
   let inpY = document.getElementById("inputYear").value;
   let inpM = document.getElementById("inputMonth").value;
-  fillCalendar(inpY, inpM);
+
+  if (isNaN(inpY) || isNaN(inpM)) {
+      alert('Please enter year and month to generate calendar.')
+  } else {
+    fillCalendar(inpY, inpM);
+  }
+  
 });
 
 function resetCalendar() {
