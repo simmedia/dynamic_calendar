@@ -1,8 +1,10 @@
-const inpY = document.getElementById("inputYear").value;
-const inpM = document.getElementById("inputMonth").value;
 const btn = document.getElementById("getCBtn");
 
-btn.addEventListener("click", fillCalendar(2000, 2));
+btn.addEventListener("click", function() {
+  let inpY = document.getElementById("inputYear").value;
+  let inpM = document.getElementById("inputMonth").value;
+  fillCalendar(inpY, inpM);
+});
 
 function resetCalendar() {
   document.getElementById("title").innerText = "";
@@ -80,10 +82,10 @@ function fillCalendarBody(weeks) {
   }
 }
 
-// window.addEventListener('load', main);
+window.addEventListener("load", main);
 
-// function main() {
-//     let now = new Date();
+function main() {
+  let now = new Date();
 
-//     fillCalendar(now.getFullYear(), now.getMonth()+1);
-// }
+  fillCalendar(now.getFullYear(), now.getMonth() + 1);
+}
