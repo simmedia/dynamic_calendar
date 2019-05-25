@@ -6,7 +6,7 @@ btn.addEventListener("click", function() {
   let error = document.getElementById("error");
 
   if (isNaN(inpY) || isNaN(inpM)) {
-      error.innerHTML = "Please enter year and month to generate calendar."
+      error.innerHTML = "Please pick a year and month to generate calendar."
   } else {
       error.innerHTML = "";
     fillCalendar(inpY, inpM);
