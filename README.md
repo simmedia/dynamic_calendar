@@ -1,4 +1,4 @@
-# Dynamic Clanedar
+# Dynamic Calendar
 
 Vanilla javasctipt date picker
 
